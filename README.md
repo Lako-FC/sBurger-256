@@ -21,22 +21,51 @@
   <b>Кроме того</b> оно используется в программе «FEncrypt» (шифрование файлов) от организации «Fun-Code»: https://vk.com/official_funcode <br>
   <b>Поддержка</b>: .Net Framework / .Net Core
 </p>
+<p align="center"> 
+  <img align="center" src="https://github.com/Lako-FC/sBurger-256/blob/master/GITHUB_RESOURCES/demo_sburger.png?raw=true"/> 
+</p>
 
-## 🔧 Характеристика
-- **none**: \\\
+## 🔧 Характеристики
+- **Создатель:** Lako (https://github.com/Lako-FC)
+- **Создан:** 2020 год
+- **Размер ключа:** 256 бит
+- **Размер блока:** 8..256 бит
+- **Число раундов:** для каждого байта - 1 раунд
+- **Тип:** подстановочно-перестановочная сеть
 
 ## 🚀 Как использовать
 
 - ### Инициализация класса 
 1. Скачайте последний релиз : **[Releases][releases]**.
-2. Добавьте файл `none.cs` в свой проект.
+2. Добавьте файл `sBurger_256.cs` в свой проект.
 3. Инициализируйте класс: 
 ```csharp
-...
+sBurger_256 sBurger = new sBurger_256();
 ```
-
-- ### Примеры использования
-1. ,,,
+4. Добавьте ключ (размер должен быть 32 символа (utf8), можете использовать хеш ключа):
 ```csharp
-...
+sBurger.key = Encoding.UTF8.GetBytes("YOURKEY_YOURKEY_YOURKEY_YOURKEY_"); //32 characters
+```
+**или**
+```csharp
+byte[] hash = new System.Security.Cryptography.MD5CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes("your key"));
+sBurger.key = Encoding.UTF8.GetBytes(BitConverter.ToString(hash).Replace("-", ""));
+```
+5. Сгенерируйте настройки (1 ключ = 1 раз сгенерировать, повторять не нужно!):
+```csharp
+sBurger.GenerationSettings();
+```
+6a. Шифрование блока 256 бит:
+```csharp
+for (int i = 0; i < all; i++) //1 the passage is 256 bits (32 bytes)
+{
+    sBurger.Encryption(byte[32]);
+}
+```
+6b. Дешифрование блока 256 бит:
+```csharp
+for (int i = 0; i < all; i++) //1 the passage is 256 bits (32 bytes)
+{
+    sBurger.Decryption(byte[32]);
+}
 ```
