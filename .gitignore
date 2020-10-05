@@ -5,6 +5,7 @@
 
 # My List
 
+*.sln
 *.csproj
 *.config
 Properties/
