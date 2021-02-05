@@ -1,4 +1,8 @@
-﻿using System;
+/*
+    Link: github.com/Lako-FC/sBurger-256
+    Version: v0.1
+*/
+using System;
 using System.Collections;
 
 public class sBurger_256
