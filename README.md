@@ -1,5 +1,3 @@
-<p align="center"><b>СКОРО..</b></p>
-
 <p align="center"> 
   <img align="center" src="https://github.com/Lako-FC/sBurger-256/blob/master/GITHUB_RESOURCES/logo.png?raw=true" width="150"/> 
 </p>
