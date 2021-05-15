@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img align="center" src="https://github.com/Lako-FC/sBurger-256/blob/master/GITHUB_RESOURCES/logo.png?raw=true" width="150"/> 
+  <img align="center" src="https://github.com/0xLaileb/sBurger-256/blob/master/GITHUB_RESOURCES/logo.png?raw=true" width="150"/> 
 </p>
 
 <h1><div align="center">sBurger-256</h1>
@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/Lako-FC/sBurger-256/total?color=%231DC8EE&label=DOWNLOADS&logo=GitHub&logoColor=%231DC8EE&style=flat"/>
-  <img src="https://img.shields.io/github/last-commit/Lako-FC/sBurger-256?color=%231DC8EE&label=LAST%20COMMIT&style=flat"/>
-  <img src="https://img.shields.io/github/release-date/Lako-FC/sBurger-256?color=%231DC8EE&label=RELEASE%20DATE&style=flat"/>
+  <img src="https://img.shields.io/github/downloads/0xLaileb/sBurger-256/total?color=%231DC8EE&label=DOWNLOADS&logo=GitHub&logoColor=%231DC8EE&style=flat"/>
+  <img src="https://img.shields.io/github/last-commit/0xLaileb/sBurger-256?color=%231DC8EE&label=LAST%20COMMIT&style=flat"/>
+  <img src="https://img.shields.io/github/release-date/0xLaileb/sBurger-256?color=%231DC8EE&label=RELEASE%20DATE&style=flat"/>
 </p>
 
-[releases]: https://github.com/Lako-FC/sBurger-256/releases/
+[releases]: https://github.com/0xLaileb/sBurger-256/releases/
 
 <p align="center">
   <b>Данный класс</b> представляет возможность использовать авторское <a href="https://ru.wikipedia.org/wiki/Симметричные_криптосистемы">симметричное шифрование</a> «sBurger-256».<br>
@@ -22,11 +22,10 @@
   <b>Поддержка</b>: .Net Framework / .Net Core
 </p>
 <p align="center"> 
-  <img align="center" src="https://github.com/Lako-FC/sBurger-256/blob/master/GITHUB_RESOURCES/demo_sburger.png?raw=true"/> 
+  <img align="center" src="https://github.com/0xLaileb/sBurger-256/blob/master/GITHUB_RESOURCES/demo_sburger.png?raw=true"/> 
 </p>
 
 ## 🔧 Характеристики
-- **Создатель:** Lako (https://github.com/Lako-FC)
 - **Создан:** 2020 год
 - **Размер ключа:** 256 бит
 - **Размер блока:** 8..256 бит
