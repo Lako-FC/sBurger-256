@@ -18,7 +18,6 @@
 
 <p align="center">
   <b>Данный класс</b> представляет возможность использовать авторское <a href="https://ru.wikipedia.org/wiki/Симметричные_криптосистемы">симметричное шифрование</a> «sBurger-256».<br>
-  <b>Кроме того</b> оно используется в программе «FEncrypt» (шифрование файлов) от организации «Fun-Code»: https://vk.com/official_funcode <br>
   <b>Поддержка</b>: .Net Framework / .Net Core
 </p>
 <p align="center"> 
