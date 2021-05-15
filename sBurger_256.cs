@@ -1,5 +1,5 @@
 /*
-    Link: github.com/Lako-FC/sBurger-256
+    Link: github.com/0xLaileb/sBurger-256
     Version: v0.1
 */
 using System;
