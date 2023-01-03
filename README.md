@@ -18,7 +18,6 @@
 
 <p align="center">
   <b>Данный класс</b> представляет возможность использовать авторское <a href="https://ru.wikipedia.org/wiki/Симметричные_криптосистемы">симметричное шифрование</a> «sBurger-256».<br>
-  <b>Поддержка</b>: .Net Framework / .Net Core
 </p>
 <p align="center"> 
   <img align="center" src="https://github.com/0xLaileb/sBurger-256/blob/master/GITHUB_RESOURCES/demo_sburger.png?raw=true"/> 
@@ -35,14 +34,14 @@
 
 - ### Инициализация класса 
 1. Скачайте последний релиз : **[Releases][releases]**.
-2. Добавьте файл `sBurger_256.cs` в свой проект.
+2. Добавьте файл `sBurger256.cs` в свой проект.
 3. Инициализируйте класс: 
 ```csharp
-sBurger_256 sBurger = new sBurger_256();
+sBurger256 sBurger = new sBurger256();
 ```
 4. Добавьте ключ (размер должен быть 32 символа (utf8), можете использовать хеш ключа):
 ```csharp
-sBurger.key = Encoding.UTF8.GetBytes("YOURKEY_YOURKEY_YOURKEY_YOURKEY_"); //32 characters
+sBurger.key = Encoding.UTF8.GetBytes("YOURKEY_YOURKEY_YOURKEY_YOURKEY_"); // 32 characters
 ```
 **или**
 ```csharp
@@ -55,14 +54,14 @@ sBurger.GenerationSettings();
 ```
 6a. Шифрование блока 256 бит:
 ```csharp
-for (int i = 0; i < all; i++) //1 the passage is 256 bits (32 bytes)
+for (int i = 0; i < all; i++) // 1 the passage is 256 bits (32 bytes)
 {
     sBurger.Encryption(byte[32]);
 }
 ```
 6b. Дешифрование блока 256 бит:
 ```csharp
-for (int i = 0; i < all; i++) //1 the passage is 256 bits (32 bytes)
+for (int i = 0; i < all; i++) // 1 the passage is 256 bits (32 bytes)
 {
     sBurger.Decryption(byte[32]);
 }
